@@ -16,7 +16,7 @@ public class CloseGrabber extends Command{
     protected void execute() {
         arm.setGrabber(GrabState.CLOSED);
         arm.setFlywheels(-1);
-        //Test4 blue
+        //Test4 green
     }
     
     protected boolean isFinished() {
