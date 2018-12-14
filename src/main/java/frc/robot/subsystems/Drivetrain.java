@@ -24,6 +24,7 @@ public class Drivetrain extends Subsystem{
         rightSlaveB = CTREControllerFactory.createPermanentSlaveTalon(RobotMap.RIGHT_SLAVE_B, rightMaster);
 
         leftMaster.setInverted(true);
+        //our own thing
     } 
     private static Drivetrain instance;
     public static Drivetrain getInstance(){
