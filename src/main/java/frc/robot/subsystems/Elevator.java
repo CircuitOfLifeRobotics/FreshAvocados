@@ -37,26 +37,32 @@ public class Elevator extends Subsystem{
             case BOTTOM:
             rightElevatorMaster.set(1);
             leftElevatorMaster.set(1);
+            System.out.println("Elevator is at the Bottom");
             break
             case SWITCH:
             rightElevatorMaster.set(1);
             leftElevatorMaster.set(1);
+            System.out.println("Elevator is at the Switch level");
             break
             case BOTTOM_SCALE:
             rightElevatorMaster.set(1);
             leftElevatorMaster.set(1);
+            System.out.println("Elevator is at the Bottom Scale level");
             break
             case SCALE:
             rightElevatorMaster.set(1);
             leftElevatorMaster.set(1);
+            System.out.println("Elevator is at the Scale level");
             break
             case TOP_SCALE:
             rightElevatorMaster.set(1);
             leftElevatorMaster.set(1);
+            System.out.println("Elevator is at the Top Scale level");
             break
-            case BOTTOM:
+            case TOP:
             rightElevatorMaster.set(1);
             leftElevatorMaster.set(1);
+            System.out.println("Elevator is at the Absolute Top");
             break
         }else{
             System.out.println("Elevator state is unknown");
