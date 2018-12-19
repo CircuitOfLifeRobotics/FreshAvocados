@@ -34,4 +34,8 @@ public class RobotMap {
     public static final int LEFT_WHEEL = 1;
     public static final int RIGHT_WHEEL = 1;
 
+    public static final int RIGHT_ELEVATOR_MASTER =1;
+    public static final int RIGHT_ELEVATOR_SlAVE =1;
+    public static final int LEFT_ELEVATOR_MASTER =1;
+    public static final int LEFT_ELEVATOR_SLAVE =1;
 }
